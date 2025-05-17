@@ -10,7 +10,7 @@ export interface IAct extends ICheck {
 }
 interface ICustomer {
 	title: string
-	code: number
+	code: string
 	address: string
 	manager?: string
 }

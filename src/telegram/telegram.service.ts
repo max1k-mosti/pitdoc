@@ -198,7 +198,7 @@ export class TelegramService {
 			number: DOCUMENT_NUMBER,
 			customer: {
 				title: COMPANY_DATA.properties.Name.title[0].plain_text,
-				code: COMPANY_DATA.properties['ЄДРПОУ'].number,
+				code: COMPANY_DATA.properties['ЄДРПОУ'].rich_text[0].plain_text,
 				address: COMPANY_DATA.properties.Address.rich_text[0].plain_text
 			},
 			date: format(new Date(), 'dd.MM.yyyy'),

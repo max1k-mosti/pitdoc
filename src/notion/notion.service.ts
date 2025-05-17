@@ -190,7 +190,7 @@ export class NotionService {
 			customer: {
 				id: company.id,
 				title: company.properties.Name.title[0].plain_text,
-				code: company.properties['ЄДРПОУ'].number,
+				code: company.properties['ЄДРПОУ'].rich_text[0].plain_text,
 				address: company.properties.Address.rich_text[0].plain_text,
 				manager: company.properties.Manager.rich_text[0].plain_text
 			},
