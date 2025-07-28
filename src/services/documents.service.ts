@@ -278,7 +278,7 @@ export class DocumentsService {
 		doc
 			.font('e-Ukraine-Bold')
 			.fontSize(9)
-			.text(`Керівник ${data.customer.manager}`, 365, 535 + tableHeight)
+			.text(`Директор ${data.customer.manager}`, 365, 535 + tableHeight)
 		doc.end()
 	}
 }
